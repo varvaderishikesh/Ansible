@@ -38,7 +38,7 @@ passwd ansadmin
 # below command addes ansadmin to sudoers file. But strongly recommended to use "visudo" command if you are aware vi or nano editor. 
 echo "ansadmin ALL=(ALL) ALL" >> /etc/sudoers
 ```
-Now, uncomment the following using vi editor
+Now, edit the sshd_config file and make some changes (Master and Slave)
 ```sh 
 vi /etc/ssh/sshd_config
 Uncomment the following:
