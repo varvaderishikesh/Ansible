@@ -1,4 +1,4 @@
-### A simple Ansible playbook to exectue a task on Node using handlers
+### Ansible playbook to exectue a task on Node using handlers
 
 Handlers are just like regular tasks in an Ansible playbook, but run only when a task contains a notify directive and also indicates that it changed something.
 
