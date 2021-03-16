@@ -2,6 +2,7 @@
 
 
 ### variables.yml
+
 ```sh
 --- # Ansible playbook to execute task on target node using variables
 - hosts: demo
